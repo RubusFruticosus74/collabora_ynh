@@ -13,8 +13,8 @@ maintainers = ["rafi59"]
 
 [upstream]
 license = "MPL-2.0"
-website = "https://collaboraoffice.com"
-admindoc = "https://www.collaboraoffice.com/code/"
+website = "https://www.collaboraonline.com"
+admindoc = "https://www.collaboraonline.com/code/"
 cpe = "cpe:2.3:a:collabora:online"
 
 [integration]
@@ -67,7 +67,7 @@ ram.runtime = "600M"
     ]
 
     [resources.apt.extras.collabora]
-    repo = "deb https://collaboraoffice.com/repos/CollaboraOnline/CODE-debian11 ./ "
+    repo = "deb https://www.collaboraonline.com/repos/CollaboraOnline/CODE-debian11 ./ "
     key = "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C54D189F4BA284D"
     packages = [
         "coolwsd",
